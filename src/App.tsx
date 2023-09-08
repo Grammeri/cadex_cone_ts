@@ -87,7 +87,6 @@ function App() {
               <label>
                 Cone height
                 <input
-                    placeholder="Укажите высоту"
                     type="number"
                     value={height}
                     onChange={(e) => setHeight(Number(e.target.value))}
@@ -98,7 +97,6 @@ function App() {
               <label>
                 Cone radius:
                 <input
-                    placeholder="Укажите радиус"
                     type="number"
                     value={radius}
                     onChange={(e) => setRadius(Number(e.target.value))}
@@ -109,7 +107,6 @@ function App() {
               <label>
                 Number of segments:
                 <input
-                    placeholder="Укажите кол-во сегментов"
                     type="number"
                     value={segments}
                     onChange={(e) => setSegments(Number(e.target.value))}
